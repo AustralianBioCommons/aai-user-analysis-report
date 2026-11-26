@@ -7,5 +7,7 @@ wheels/
 *.egg-info
 .idea/
 
+../data/simulated-prod-users.json
+
 # Virtual environments
 .venv
