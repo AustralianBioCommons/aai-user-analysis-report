@@ -7,6 +7,11 @@ wheels/
 *.egg-info
 .idea/
 
+# Jupyter
+.ipynb_checkpoints/
+src/.ipynb_checkpoints/
+
+# Local dataset (too large for GitHub)
 data/simulated-prod-users.json
 
 # Virtual environments
