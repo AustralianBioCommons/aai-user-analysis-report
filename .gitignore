@@ -7,5 +7,9 @@ wheels/
 *.egg-info
 .idea/
 
+# Jupyter
+.ipynb_checkpoints/
+src/.ipynb_checkpoints/
+
 # Virtual environments
 .venv
