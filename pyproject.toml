@@ -7,7 +7,11 @@ authors = [
     { name = "Eric", email = "eriicye@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "jupyterlab>=4.6.6",
+    "pandas>=3.1.1",
+    "seaborn>=0.13.2",
+]
 
 [project.scripts]
 user-analysis = "user_analysis:main"
